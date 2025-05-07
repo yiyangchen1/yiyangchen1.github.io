@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7191cc;
+  background: #a13cff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2298,7 +2298,7 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("./background.jpeg"); /* 已存放的图片地址 */
+  background: url("/images/background.jpeg"); /* 已存放的图片地址 */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
