@@ -1141,6 +1141,7 @@ pre .javascript .function {
   margin: 0 auto;
   max-width: 96px;
   padding: 2px;
+  border-radius: 50%;
 }
 .site-author-name {
   color: #f5f5f5;
@@ -1168,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffb0;
+  background: #0affe5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1962,6 +1963,13 @@ pre .javascript .function {
 #qr p {
   text-align: center;
 }
+.post-copyright {
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+}
 .category-all-page .category-all-title {
   text-align: center;
 }
@@ -2288,4 +2296,18 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+body {
+  background: url("https://ts1.tc.mm.bing.net/th/id/R-C.b2c664610528cf90356ab452def9a8a6?rik=CJtazXfnmYSEFQ&riu=http%3a%2f%2fwww.youtiy.com%2fpages%2fadmin%2fskin%2fplugin%2fcontrols%2fkindeditor%2fattached%2fimage%2f20210927%2f20210927214622_89422.jpg&ehk=UJS%2feOnLYmk972zYgJCoyHzrmSySlYe47SrZ%2bOO%2bq2Q%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
